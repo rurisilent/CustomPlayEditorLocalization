@@ -301,8 +301,8 @@ Setting.KeybindSetting.Title|Keybind setting
 Setting.KeybindSetting.ResetDefault|Default
 Setting.KeybindSetting.Return|Save
 
-Setting.Keybind.LeftView|View moving left
-Setting.Keybind.RightView|View moving right
+Setting.Keybind.LeftView|Scroll left
+Setting.Keybind.RightView|Scroll right
 Setting.Keybind.LockView|Follow playback line
 Setting.Keybind.ShowIndicator|Show indicators
 Setting.Keybind.AccelerateView|Camera acceleration
