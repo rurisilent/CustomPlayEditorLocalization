@@ -1,0 +1,338 @@
+#MDCP LOCALIZATION FILE
+#LANGNAME English (US)
+#FORMAT Key|Value
+#AUTHOR rurisilent
+
+Menu.Func.New|New
+Menu.Func.Edit|Edit
+Menu.Func.Convert|Convert
+
+Create.Back.Normal|Prev.
+Create.Back.Special|Give up
+Create.Front.Normal|Next.
+Create.Front.Special|Go
+Create.Step.Normal|Step {0} / {1}
+Create.Title.Step1|Choose file format
+Create.Title.Step2|Save options
+Create.Title.Step3|BPM setting
+Create.Title.Step4|More informations
+
+Create.FileType.MDCPMF|Muse Dash CustomPlay Format (Recommended)
+Create.FileType.BMS|Muse Dash Format
+
+Create.FilePath.MapSavePath|Folder path
+Create.FilePath.MapSavePathBMS|File path
+Create.FilePath.MapFolderName|Folder name
+Create.FilePath.MapFileName|File name
+Create.FilePath.MusicFile|Music file
+Create.FilePath.Select|Select
+Create.FilePath.LastUsed|History
+Create.FilePath.HasSelected|Selected
+
+Create.FilePath.NoLastPath.Title|Failed
+Create.FilePath.NoLastPath.Content|No history location
+Create.FilePath.SelectPath.Title|Select the path to save the chart folder
+Create.FilePath.SelectPathBMS.Title|Select the path to save the chart
+Create.FilePath.SelectMusic.Title|Select the music file
+Create.FilePath.IllegalFolder.IllegalName|Illegal filename
+Create.FilePath.IllegalFolder.Duplicated|Sharing name with other folders
+Create.FilePath.IllegalFile.IllegalName|Illegal filename
+Create.FilePath.IllegalFile.Duplicated|Sharing name with other files
+Create.FilePath.MusicFileError.Title|Failed
+Create.FilePath.MusicFileError.Content|Music file not valid
+
+Create.FileInfo.BPM.AnalyzeNormal|Detect (Normal)
+Create.FileInfo.BPM.AnalyzeHyper|Detect (High Range)
+Create.FileInfo.BPM.WhenUseAnalyzer|Only use the high range mode if the BPM is expected to be above 300[:next]The result is for reference only. If you know the exact BPM of this track, fill in it directly.
+Create.FileInfo.BPM.Introduction|BPM (Beats per minute) is the basis of a music. Filling in correct BPM greatly helps charting.
+
+Create.FileInfo.BPM.Analyzing|Detecting
+Create.FileInfo.BPM.LoadClipFailed|Failed to load the clip
+Create.FileInfo.BPM.AnalyzeFailed|Detect failed
+Create.FileInfo.BPM.Analyzed|Possible BPM: [:next]<size=36>{0}</size>
+
+Create.Error.CannotContinue.Title|Cannot continue
+Create.Error.CannotContinue.Content|Missing information or wrong information provided
+Create.Error.BPMError.Content|BPM can only be positive
+
+Create.Template.UnnamedChart|Untitled
+Create.Template.UnknownArtist|Unknown Artists
+Create.Template.UnknownCharter|Unknown Designer
+
+Load.FileFormat|Choose file format
+Load.Cancel|Cancel
+Load.Select|Browse
+
+Convert.Title|Select convert mode
+Convert.Exit|Exit
+
+Editor.LoadingState.LoadInspector|Loading Inspector Data
+Editor.LoadingState.LoadFile|Loading Chart File
+Editor.LoadingState.ReadFile|Reading Chart File
+Editor.LoadingState.ReadMusic|Loading Music File
+Editor.LoadingState.LoadExternal|Loading External Resources
+Editor.LoadingState.LoadEditor|Initiating Editor
+
+Editor.UI.SectionSetting|Grids
+Editor.UI.BackToMenu|Home
+Editor.UI.MapLayer|mapLayer
+Editor.UI.NoteInfo.Total|Total
+Editor.UI.NoteInfo.Combo|Combo
+Editor.UI.NoteInfo.Obstacle|Spike
+Editor.UI.NoteInfo.Collectible|Collectible
+Editor.UI.SaveFile|Saved
+Editor.UI.AutoSave|Autosave
+Editor.UI.UndoOperation|Undo
+Editor.UI.RedoOperation|Redo
+Editor.UI.UndoFailed.StackEmpty|Nothing to undo
+Editor.UI.RedoFailed.StackEmpty|Nothing to redo
+Editor.UI.Operation.Create|Create {0} objects
+Editor.UI.Operation.Delete|Delete {0} objects
+Editor.UI.Operation.Modify|Modify {0} objects
+Editor.UI.Operation.Copy|Copy {0} objects
+Editor.UI.Operation.Mirror|Mirror {0} objects
+
+Editor.Edit.NowSelect|Now
+Editor.Edit.InType|In Type
+Editor.Edit.Flowspeed|Speed
+Editor.Edit.Scene|Scene
+
+Editor.Edit.Type.Normal|Common
+Editor.Edit.Type.Action|Action
+Editor.Edit.Type.Effect|Effect
+Editor.Edit.Type.BeatControl|Tools
+Editor.Edit.Type.BMSRelated|BMS
+
+Editor.Edit.NoteType.small_1|Small I
+Editor.Edit.NoteType.mid_1|Medium I
+Editor.Edit.NoteType.mid_2|Medium II
+Editor.Edit.NoteType.large_1|Large I
+Editor.Edit.NoteType.large_2|Large II
+Editor.Edit.NoteType.ghost|Ghost
+Editor.Edit.NoteType.assault|Raider
+Editor.Edit.NoteType.hammer|Hammer
+Editor.Edit.NoteType.gear|Gear
+Editor.Edit.NoteType.long|Hold
+Editor.Edit.NoteType.long_short|Hold (Instant)
+Editor.Edit.NoteType.double|Gemini
+Editor.Edit.NoteType.punch|Masher
+Editor.Edit.NoteType.boss_ra|Boss Enter
+Editor.Edit.NoteType.boss_ra_out|Boss Exit
+Editor.Edit.NoteType.boss_ra_far_atk_1|Boss Note I
+Editor.Edit.NoteType.boss_ra_far_atk_2|Boss Note II-1
+Editor.Edit.NoteType.boss_ra_far_atk_3|Boss Note II-2
+Editor.Edit.NoteType.boss_ra_gear|Boss Gear
+Editor.Edit.NoteType.boss_ra_atk_1|Boss Melee
+Editor.Edit.NoteType.boss_ra_atk_1_wait|Boss Slow Melee
+Editor.Edit.NoteType.boss_ra_punch|Boss Mash
+Editor.Edit.NoteType.boss_ra_punch_out|Boss Mash & Exit
+Editor.Edit.NoteType.special_note|Note
+Editor.Edit.NoteType.special_hp|Heart
+Editor.Edit.NoteType.special_pigeon|Pigeon
+Editor.Edit.NoteType.boss_ra_far_atk_1_start|Boss Phase I Start
+Editor.Edit.NoteType.boss_ra_far_atk_2_start|Boss Phase II Start
+Editor.Edit.NoteType.boss_ra_far_atk_1_end|Boss Phase I End
+Editor.Edit.NoteType.boss_ra_far_atk_2_end|Boss Phase II End
+Editor.Edit.NoteType.boss_ra_far_atk_1_to_2|Boss Phase I To II
+Editor.Edit.NoteType.boss_ra_far_atk_2_to_1|Boss Phase II To I
+Editor.Edit.NoteType.effect_timing|Timing
+Editor.Edit.NoteType.preset_beatbpm|BPM Tool
+Editor.Edit.NoteType.vfx_changescene|Change Scene
+Editor.Edit.NoteType.vfx_visibility_show|Show Note
+Editor.Edit.NoteType.vfx_visibility_hide|Hide Note
+Editor.Edit.NoteType.vfx_bossvisibility_show|Show Boss
+Editor.Edit.NoteType.vfx_bossvisibility_hide|Hide Boss
+
+Editor.Edit.NoteType.bms_touhou_ppoint|P Point
+
+Editor.Edit.NoteType.bms_hidebg|Hide Scene
+Editor.Edit.NoteType.bms_showbg|Show Scene
+Editor.Edit.NoteType.bms_scrollup|Scroll Up
+Editor.Edit.NoteType.bms_scrolldown|Scroll Down
+Editor.Edit.NoteType.bms_scrollend|Scroll End
+Editor.Edit.NoteType.bms_glitch|Glitch
+Editor.Edit.NoteType.bms_glitchend|Gitch End
+Editor.Edit.NoteType.bms_rgb|RGB Glitch
+Editor.Edit.NoteType.bms_rgbend|RGB Glitch End
+Editor.Edit.NoteType.bms_darkedge|Dark Edge
+Editor.Edit.NoteType.bms_darkedgeend|Dark Edge End
+Editor.Edit.NoteType.bms_nosignal|No Signal
+Editor.Edit.NoteType.bms_nosignalend|No Signal End
+Editor.Edit.NoteType.bms_flare|Flare
+Editor.Edit.NoteType.bms_flareintense|Flare Intense
+Editor.Edit.NoteType.bms_flareend|Flare End
+Editor.Edit.NoteType.bms_scenepause|Scene Pause
+Editor.Edit.NoteType.bms_scenepauseend|Scene Pause End
+
+Editor.Select.SelectedCount|Selected
+
+Editor.Select.Inspector.Type|Type
+Editor.Select.Inspector.TypeUI.Title|Change to type
+Editor.Select.Inspector.TypeUI.Exit|Exit
+Editor.Select.Inspector.Speed|Speed
+Editor.Select.Inspector.InType|In Type
+Editor.Select.Inspector.Track|Track
+Editor.Select.Inspector.Layer|Layer
+Editor.Select.Inspector.LayerUI.Title|Switch to layer & Edit
+Editor.Select.Inspector.LayerUI.Exit|Exit
+Editor.Select.Inspector.InTime|In Time
+Editor.Select.Inspector.OutTime|Out Time
+Editor.Select.Inspector.Timing|Timing
+
+Editor.Select.Filter.CloseHint|Click blank space to close 
+Editor.Select.Filter.EditableLayer|Selectable Layer
+Editor.Select.Filter.EditableType|Selectable Note Type
+
+Editor.Select.Filter.NoteType.track|Common
+Editor.Select.Filter.NoteType.boss_action|Boss Action
+Editor.Select.Filter.NoteType.timing|Timing
+Editor.Select.Filter.NoteType.vfx|Common VFX
+Editor.Select.Filter.NoteType.vfx_scene|Change Scene
+Editor.Select.Filter.NoteType.vfx_visibility|Note Visibility
+Editor.Select.Filter.NoteType.vfx_bossvisibility|Boss Visibility
+
+Editor.Select.SelectionFilter.Layer.OnlyEditing|Only current mapLayer
+Editor.Select.SelectionFilter.Layer.MapLayer|mapLayer {0}
+
+Editor.VFXChangeScene.UI.Title|Select the scene (Click blank space to close)
+
+Editor.SectionSetting.Title|Grid setting
+Editor.SectionSetting.BasicBPM|BPM
+Editor.SectionSetting.Division|Division
+Editor.SectionSetting.CustomizeDiv|Custom
+Editor.SectionSetting.BasicBeat|Beat
+Editor.SectionSetting.BeatNume|Numerator
+Editor.SectionSetting.BeatDeno|Denominator
+Editor.SectionSetting.BeatNote.Whole|Whole
+Editor.SectionSetting.BeatNote.Half|Half
+Editor.SectionSetting.BeatNote.Quarter|Quarter
+Editor.SectionSetting.BeatNote.Eighth|Eighth
+Editor.SectionSetting.BeatNote.Sixteenth|Sixteenth
+Editor.SectionSetting.BeatNote.ThirtySecond|Thirty-second
+Editor.SectionSetting.NowBeat|Now
+Editor.SectionSetting.SelectBeat|Set
+Editor.SectionSetting.ShowLine|Show Grids
+Editor.SectionSetting.HideLine|Hide Grids
+Editor.SectionSetting.Set|Set
+Editor.SectionSetting.Save|Finish
+
+Editor.MapLayerSetting.Title|MapLayer setting
+Editor.MapLayerSetting.NowEditing|Now editing
+Editor.MapLayerSetting.Show|Visible
+Editor.MapLayerSetting.Hide|Invisible
+Editor.MapLayerSetting.EditChangeHint|Use binded key to switch layer
+Editor.MapLayerSetting.Display|Displaying mapLayer
+Editor.MapLayerSetting.Hint|Click card to switch visibility[:next]Red button to delete mapLayer (Cannot redo)[:next]Each mapLayer has a unique ID
+Editor.MapLayerSetting.AddLayer|Add a mapLayer
+Editor.MapLayerSetting.Save|Finish
+Editor.MapLayerSetting.Delete|Delete
+Editor.MapLayerSetting.ConfirmDelete|Are you sure to delete this mapLayer? (Cancel after {0}s)
+Editor.MapLayerSetting.DeleteFailed.Title|Delete failed
+Editor.MapLayerSetting.DeleteFailed.Content|At least 1 mapLayer
+
+Editor.InfoModifier.Tip|Data modifier (Input the new value)[:next]DO NOT INPUT RETURN/ENTER IN THE DATAFIELD
+Editor.InfoModifier.ChartName|Title
+Editor.InfoModifier.ArtistDesigner|Artist / Designer
+Editor.InfoModifier.DifficultyLevel|Difficulty / Level
+Editor.InfoModifier.DifficultyTip|easy / hard / master / special
+Editor.InfoModifier.DifficultyTipBms|easy / hard / master
+Editor.InfoModifier.EndPreviewTime|End time / Demo start / Demo end
+Editor.InfoModifier.FinishEditing|Submit
+
+Editor.InEditorSetting.Title|In-Editor Setting
+Editor.InEditorSetting.MirrorWithDirection|Also mirror in-type
+Editor.InEditorSetting.StrictGrid|Strict grids
+Editor.InEditorSetting.GrammarCheck|Design check
+Editor.InEditorSetting.GrammarCheckButton|Start
+Editor.InEditorSetting.DeleteOFR|Del out-of-range notes
+Editor.InEditorSetting.DeleteOFRButton|Delete
+Editor.InEditorSetting.DeleteHidden|Del hidden notes
+Editor.InEditorSetting.DeleteHiddenButton|Delete
+
+Editor.InEditorSetting.Warning.DeleteOFR.Title|Confirm deletion
+Editor.InEditorSetting.Warning.DeleteOFR.Content|Are you sure to delete out-of-range notes?[:next]You can undo this later
+Editor.InEditorSetting.Notice.NoOFR.Title|Operation finished
+Editor.InEditorSetting.Notice.NoOFR.Content|Out-of-range note doesn't exist
+Editor.InEditorSetting.Notice.DeleteOFRComplete.Title|Operation finished
+Editor.InEditorSetting.Notice.DeleteOFRComplete.Content|Deleted {0} out-of-range notes
+
+Editor.InEditorSetting.Warning.DeleteHidden.Title|Confirm deletion
+Editor.InEditorSetting.Warning.DeleteHidden.Content|Are you sure to delete hidden notes?[:next](These notes are recognized by the editor but won't be shown)[:next]You can undo this later
+Editor.InEditorSetting.Notice.NoHidden.Title|Operation finished
+Editor.InEditorSetting.Notice.NoHidden.Content|Hidden note doesn't exist
+Editor.InEditorSetting.Notice.DeleteHiddenComplete.Title|Operation finished
+Editor.InEditorSetting.Notice.DeleteHiddenComplete.Content|Deleted {0} hidden notes
+
+Editor.DesignCheck.Title|Design Check
+Editor.DesignCheck.Loading|Processing......
+Editor.DesignCheck.NoError|All is well
+
+Editor.DesignCheck.Priority.Urgent|Urgent
+Editor.DesignCheck.Priority.Warning|Warning
+
+Editor.DesignCheck.Reason.OutOfRange|Out of range : {0}
+Editor.DesignCheck.Reason.GeminiObstacle|Gemini spikes
+Editor.DesignCheck.Reason.BossAlwaysOnStage|Boss remaining on stage
+Editor.DesignCheck.Reason.BossNoteOutOfRange|Boss note exists in wrong place : {0}
+Editor.DesignCheck.Reason.DuplicateNote|Duplicate notes : Count {0}
+
+Editor.DesignCheck.CopyToClipboard|Copy to clipboard
+Editor.DesignCheck.Finish|Close
+
+Editor.DesignCheck.Notice.ClipboardFinish.Title|Copied
+Editor.DesignCheck.Notice.ClipboardFinish.Content|Finished copying the result to clipboard
+
+Editor.DesignCheck.Clipboard.Title|{0} Design check result
+
+Editor.ConfirmExit.Title|Confirm exit
+Editor.ConfirmExit.Content|Changes not saved，want to save?
+Editor.ConfirmExit.Save|Save
+Editor.ConfirmExit.DontSave|Don’t save
+Editor.ConfirmExit.Cancel|Cancel
+
+Setting.Title|Editor setting
+Setting.Resolution|Resolution
+Setting.Fullscreen|Fullscreen
+Setting.Language|Language
+Setting.Keybind|Keybind
+Setting.Keybind.OpenSetting|Open setting panel
+
+Setting.KeybindSetting.Title|Keybind setting
+Setting.KeybindSetting.ResetDefault|Default
+Setting.KeybindSetting.Return|Save
+
+Setting.Keybind.LeftView|View moving left
+Setting.Keybind.RightView|View moving right
+Setting.Keybind.LockView|Follow playback line
+Setting.Keybind.ShowIndicator|Show indicators
+Setting.Keybind.AccelerateView|Camera acceleration
+Setting.Keybind.MusicSpeedUp|Speed up music
+Setting.Keybind.MusicSpeedDown|Slow down music
+Setting.Keybind.LayerEditNext|Edit next mapLayer
+Setting.Keybind.LayerEditPrev|Edit prev mapLayer
+Setting.Keybind.MusicPlaybackCtrl|Play/Pause
+Setting.Keybind.CopySelection|Copy selection
+Setting.Keybind.DeleteSelection|Delete selection
+Setting.Keybind.MirrorSelection|Mirror selection
+Setting.Keybind.SelectAll|Select all
+Setting.Keybind.AttachHeart|Attach / Remove heart
+Setting.Keybind.UndoOperation|Undo
+Setting.Keybind.RedoOperation|Redo
+Setting.Keybind.SaveFile|Save File
+
+Setting.KeyListener.Hint|Listening Input（Esc to cancel）
+
+Setting.UI.Save|Save
+Setting.UI.Return|Don't Save
+Setting.UI.NeedRestart|A reboot is required
+Setting.UI.Keybind.ResetDefault.Title|Reset keybind
+Setting.UI.Keybind.ResetDefault.Content|Are you sure to set the keybind to default?
+Setting.UI.Keybind.ResetDefaultFinish.Content|Keybinds have been reset
+Setting.UI.ExitConfirm.Title|Confirm exit
+Setting.UI.ExitConfirm.Content|Settings not applied, are you sure to exit?
+
+Common.Edited|Edited
+Common.FileOpr.SelectFolder|Select folder
+Common.FileOpr.SelectFile|Select file
+Common.Notice.Confirm|Confirm
+Common.Notice.Cancel|Cancel

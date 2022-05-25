@@ -1,0 +1,343 @@
+#MDCP LOCALIZATION FILE
+#LANGNAME 简体中文
+#FORMAT Key|Value
+#AUTHOR rurisilent
+
+Menu.Func.New|新建
+Menu.Func.Edit|编辑
+Menu.Func.Convert|转换
+
+Create.Back.Normal|上一步
+Create.Back.Special|你不许创建了
+Create.Front.Normal|下一步
+Create.Front.Special|开始塞爆
+Create.Step.Normal|步骤 {0} / {1}
+Create.Title.Step1|选择文件格式
+Create.Title.Step2|选择保存路径
+Create.Title.Step3|填写曲目BPM
+Create.Title.Step4|补充曲目信息
+
+Create.FileType.MDCPMF|Muse Dash CustomPlay 专用格式（推荐）
+Create.FileType.BMS|Muse Dash 使用格式
+
+Create.FilePath.MapSavePath|谱面保存路径
+Create.FilePath.MapSavePathBMS|谱面保存路径
+Create.FilePath.MapFolderName|谱面文件夹名称
+Create.FilePath.MapFileName|谱面文件名称
+Create.FilePath.MusicFile|音乐文件选择
+Create.FilePath.Select|选择
+Create.FilePath.LastUsed|使用历史记录
+Create.FilePath.HasSelected|已选择
+
+Create.FilePath.NoLastPath.Title|失败
+Create.FilePath.NoLastPath.Content|无历史创建记录
+Create.FilePath.SelectPath.Title|选择谱面文件夹的保存路径
+Create.FilePath.SelectPathBMS.Title|选择谱面文件的保存路径
+Create.FilePath.SelectMusic.Title|选择音乐文件
+Create.FilePath.IllegalFolder.IllegalName|文件名含有非法字符
+Create.FilePath.IllegalFolder.Duplicated|和现有文件夹重名
+Create.FilePath.IllegalFile.IllegalName|文件名含有非法字符
+Create.FilePath.IllegalFile.Duplicated|和现有文件重名
+Create.FilePath.MusicFileError.Title|失败
+Create.FilePath.MusicFileError.Content|音乐文件无效
+
+Create.FileInfo.BPM.AnalyzeNormal|自动估测（标准）
+Create.FileInfo.BPM.AnalyzeHyper|自动估测（高范围）
+Create.FileInfo.BPM.WhenUseAnalyzer|一般情况下，请用标准估测模式；若您预计BPM高于300，请用高范围估测模式[:next]BPM计算结果仅供参考，对于某些曲目不一定准确（如带有变BPM，变拍，节拍不明显等）。若您可以找到该曲目的准确BPM，请直接填入，不要使用BPM估测功能
+Create.FileInfo.BPM.Introduction|BPM指的是每分钟节拍数，是音乐的基本要素之一。在制谱过程中，正确的BPM可以保证我们放置的音符总是在拍子上的（即能够准确对音）。所以，该项设置请务必在开始制谱前填写正确（创建完成后也可以修改），避免无法对音或对音错误的尴尬情况。若还有疑问，可在MDCP测试群内询问群友。
+
+Create.FileInfo.BPM.Analyzing|BPM 分析中
+Create.FileInfo.BPM.LoadClipFailed|读取音频失败
+Create.FileInfo.BPM.AnalyzeFailed|分析失败
+Create.FileInfo.BPM.Analyzed|这首歌的 BPM 可能是[:next]<size=36>{0}</size>
+
+Create.Error.CannotContinue.Title|无法继续
+Create.Error.CannotContinue.Content|有信息未填写或有误
+Create.Error.BPMError.Content|BPM 只能为正数
+
+Create.Template.UnnamedChart|未命名谱面
+Create.Template.UnknownArtist|未知艺术家
+Create.Template.UnknownCharter|未知谱作者
+
+Load.FileFormat|选择文件类型
+Load.Cancel|取消
+Load.Select|选择文件
+Load.Notice.NoValidChart.Title|无有效谱面文件
+Load.Notice.NoValidChart.Content|在位置 {0} 缺少 score.mdcpmf
+Load.Notice.NoValidMusic.Title|无有效音频文件
+Load.Notice.NoValidMusic.Content|在位置 {0} 缺少 music.ogg
+Load.Notice.NoValidMusicCustomName.Content|在位置 {0} 缺少 {1}.ogg
+
+Convert.Title|请选择转换模式
+Convert.Exit|我不想转了，我溜了
+
+Editor.LoadingState.LoadInspector|加载 Inspector 数据
+Editor.LoadingState.LoadFile|加载谱面文件
+Editor.LoadingState.ReadFile|读取谱面文件
+Editor.LoadingState.ReadMusic|加载音乐文件
+Editor.LoadingState.LoadExternal|加载外部文件
+Editor.LoadingState.LoadEditor|准备 Editor 资源
+
+Editor.UI.SectionSetting|格线设置
+Editor.UI.BackToMenu|返回主页
+Editor.UI.MapLayer|谱面层级
+Editor.UI.NoteInfo.Total|物量
+Editor.UI.NoteInfo.Combo|连击
+Editor.UI.NoteInfo.Obstacle|齿轮
+Editor.UI.NoteInfo.Collectible|音符
+Editor.UI.SaveFile|保存成功
+Editor.UI.AutoSave|自动保存
+Editor.UI.UndoOperation|已撤销
+Editor.UI.RedoOperation|已重做
+Editor.UI.UndoFailed.StackEmpty|无可撤销的操作
+Editor.UI.RedoFailed.StackEmpty|无可重做的操作
+Editor.UI.Operation.Create|创建 {0} 个单位
+Editor.UI.Operation.Delete|删除 {0} 个单位
+Editor.UI.Operation.Modify|修改 {0} 个单位
+Editor.UI.Operation.Copy|复制 {0} 个单位
+Editor.UI.Operation.Mirror|镜像 {0} 个单位
+
+Editor.Edit.NowSelect|当前选中
+Editor.Edit.InType|入场方式
+Editor.Edit.Flowspeed|音符流速
+Editor.Edit.Scene|场景选择
+
+Editor.Edit.Type.Normal|常规音符
+Editor.Edit.Type.Action|动作音符
+Editor.Edit.Type.Effect|特效音符
+Editor.Edit.Type.BeatControl|节拍工具
+Editor.Edit.Type.BMSRelated|BMS
+
+Editor.Edit.NoteType.small_1|小型 I
+Editor.Edit.NoteType.mid_1|中型 I
+Editor.Edit.NoteType.mid_2|中型 II
+Editor.Edit.NoteType.large_1|大型 I
+Editor.Edit.NoteType.large_2|大型 II
+Editor.Edit.NoteType.ghost|幽灵
+Editor.Edit.NoteType.assault|突袭
+Editor.Edit.NoteType.hammer|摆锤
+Editor.Edit.NoteType.gear|地面齿轮
+Editor.Edit.NoteType.long|乐谱
+Editor.Edit.NoteType.long_short|超短乐谱
+Editor.Edit.NoteType.double|双押
+Editor.Edit.NoteType.punch|连打
+Editor.Edit.NoteType.boss_ra|首领入场
+Editor.Edit.NoteType.boss_ra_out|首领退场
+Editor.Edit.NoteType.boss_ra_far_atk_1|首领远程 I
+Editor.Edit.NoteType.boss_ra_far_atk_2|首领远程 II-1
+Editor.Edit.NoteType.boss_ra_far_atk_3|首领远程 II-2
+Editor.Edit.NoteType.boss_ra_gear|首领齿轮
+Editor.Edit.NoteType.boss_ra_atk_1|首领快速冲撞
+Editor.Edit.NoteType.boss_ra_atk_1_wait|首领慢速冲撞
+Editor.Edit.NoteType.boss_ra_punch|首领连打
+Editor.Edit.NoteType.boss_ra_punch_out|首领连打退场
+Editor.Edit.NoteType.special_note|音符
+Editor.Edit.NoteType.special_hp|红心
+Editor.Edit.NoteType.special_pigeon|首领鸽子
+Editor.Edit.NoteType.boss_ra_far_atk_1_start|首领远程 I 开始
+Editor.Edit.NoteType.boss_ra_far_atk_2_start|首领远程 II 开始
+Editor.Edit.NoteType.boss_ra_far_atk_1_end|首领远程 I 结束
+Editor.Edit.NoteType.boss_ra_far_atk_2_end|首领远程 II 结束
+Editor.Edit.NoteType.boss_ra_far_atk_1_to_2|首领远程 I 至 II
+Editor.Edit.NoteType.boss_ra_far_atk_2_to_1|首领远程 II 至 I
+Editor.Edit.NoteType.effect_timing|时间重映射
+Editor.Edit.NoteType.preset_beatbpm|节拍调整工具
+Editor.Edit.NoteType.vfx_changescene|场景切换
+Editor.Edit.NoteType.vfx_visibility_show|Note 显示
+Editor.Edit.NoteType.vfx_visibility_hide|Note 隐藏
+Editor.Edit.NoteType.vfx_bossvisibility_show|首领显示
+Editor.Edit.NoteType.vfx_bossvisibility_hide|首领隐藏
+
+Editor.Edit.NoteType.bms_touhou_ppoint|P点
+
+Editor.Edit.NoteType.bms_hidebg|场景隐藏
+Editor.Edit.NoteType.bms_showbg|场景显示
+Editor.Edit.NoteType.bms_scrollup|画面向上滚动
+Editor.Edit.NoteType.bms_scrolldown|画面向下滚动
+Editor.Edit.NoteType.bms_scrollend|画面滚动结束
+Editor.Edit.NoteType.bms_glitch|随机波纹
+Editor.Edit.NoteType.bms_glitchend|随机波纹结束
+Editor.Edit.NoteType.bms_rgb|RGB分离
+Editor.Edit.NoteType.bms_rgbend|RGB分离结束
+Editor.Edit.NoteType.bms_darkedge|暗边
+Editor.Edit.NoteType.bms_darkedgeend|暗边结束
+Editor.Edit.NoteType.bms_nosignal|花屏
+Editor.Edit.NoteType.bms_nosignalend|花屏结束
+Editor.Edit.NoteType.bms_flare|闪光开始
+Editor.Edit.NoteType.bms_flareintense|闪光高峰
+Editor.Edit.NoteType.bms_flareend|闪光结束
+Editor.Edit.NoteType.bms_scenepause|背景停滞
+Editor.Edit.NoteType.bms_scenepauseend|背景停滞结束
+
+Editor.Select.SelectedCount|已选择单位
+
+Editor.Select.Inspector.Type|类型
+Editor.Select.Inspector.TypeUI.Title|更改为类型
+Editor.Select.Inspector.TypeUI.Exit|关闭
+Editor.Select.Inspector.Speed|速度
+Editor.Select.Inspector.InType|入场方式
+Editor.Select.Inspector.Track|轨道
+Editor.Select.Inspector.Layer|层级
+Editor.Select.Inspector.LayerUI.Title|更改至层级并将其作为当前编辑层
+Editor.Select.Inspector.LayerUI.Exit|关闭
+Editor.Select.Inspector.InTime|起始时间
+Editor.Select.Inspector.OutTime|结束时间
+Editor.Select.Inspector.Timing|时间重映射
+
+Editor.Select.Filter.CloseHint|点击其它位置关闭
+Editor.Select.Filter.EditableLayer|可选中的层级
+Editor.Select.Filter.EditableType|可选中的 Note 分类
+
+Editor.Select.Filter.NoteType.track|普通音符
+Editor.Select.Filter.NoteType.boss_action|Boss 动作
+Editor.Select.Filter.NoteType.timing|时间重映射
+Editor.Select.Filter.NoteType.vfx|通用特效
+Editor.Select.Filter.NoteType.vfx_scene|场景切换
+Editor.Select.Filter.NoteType.vfx_visibility|Note 可见性
+Editor.Select.Filter.NoteType.vfx_bossvisibility|Boss 可见性
+
+Editor.Select.SelectionFilter.Layer.OnlyEditing|仅当前编辑层级
+Editor.Select.SelectionFilter.Layer.MapLayer|层级 {0}
+
+Editor.VFXChangeScene.UI.Title|选择切换至的场景（点击其他位置取消）
+
+Editor.SectionSetting.Title|格线设置
+Editor.SectionSetting.BasicBPM|基础 BPM
+Editor.SectionSetting.Division|格线细分
+Editor.SectionSetting.CustomizeDiv|自定义细分
+Editor.SectionSetting.BasicBeat|基准节拍
+Editor.SectionSetting.BeatDeno|以 X 分音符为一拍
+Editor.SectionSetting.BeatNume|每小节 X 拍
+Editor.SectionSetting.BeatNote.Whole|全音符
+Editor.SectionSetting.BeatNote.Half|二分音符
+Editor.SectionSetting.BeatNote.Quarter|四分音符
+Editor.SectionSetting.BeatNote.Eighth|八分音符
+Editor.SectionSetting.BeatNote.Sixteenth|十六分音符
+Editor.SectionSetting.BeatNote.ThirtySecond|三十二分音符
+Editor.SectionSetting.NowBeat|目前
+Editor.SectionSetting.SelectBeat|选定
+Editor.SectionSetting.ShowLine|显示格线
+Editor.SectionSetting.HideLine|隐藏格线
+Editor.SectionSetting.Set|确定
+Editor.SectionSetting.Save|设置完成
+
+Editor.MapLayerSetting.Title|谱面层级设置
+Editor.MapLayerSetting.NowEditing|当前正在编辑
+Editor.MapLayerSetting.Show|显示
+Editor.MapLayerSetting.Hide|隐藏
+Editor.MapLayerSetting.EditChangeHint|退出此界面后，请使用设置的键位切换编辑层
+Editor.MapLayerSetting.Display|显示中的 mapLayer
+Editor.MapLayerSetting.Hint|点击卡片可以切换是否显示[:next]点击卡片右侧的红色按钮可以删除 mapLayer（不可撤销）[:next]点击下方的 + 可以添加一个 mapLayer[:next]请注意，mapLayer 的编号不是固定的，但是是唯一的
+Editor.MapLayerSetting.AddLayer|无内鬼，加一层 mapLayer
+Editor.MapLayerSetting.Save|设置完成
+Editor.MapLayerSetting.Delete|扔了
+Editor.MapLayerSetting.ConfirmDelete|是否删除此 mapLayer ({0}s 后取消)
+Editor.MapLayerSetting.DeleteFailed.Title|删除失败
+Editor.MapLayerSetting.DeleteFailed.Content|至少需要拥有一个 mapLayer
+
+Editor.InfoModifier.Tip|数据修改（请在框内填入需要修改为的值，留空则不修改）[:next]所有数据内避免出现换行，否则可能导致曲谱读取错误
+Editor.InfoModifier.ChartName|曲谱名称
+Editor.InfoModifier.ArtistDesigner|艺术家 / 谱面设计
+Editor.InfoModifier.DifficultyLevel|难度 / 等级
+Editor.InfoModifier.DifficultyTip|难度：easy / hard / master / special 对应 萌新 / 高手 / 大触 / 特殊
+Editor.InfoModifier.DifficultyTipBms|难度：easy / hard / master 对应 萌新 / 高手 / 大触
+Editor.InfoModifier.EndPreviewTime|结束时间 / 预览起始 / 预览结束
+Editor.InfoModifier.FinishEditing|我好了
+
+Editor.InEditorSetting.Title|编辑器设置
+Editor.InEditorSetting.MirrorWithDirection|同时镜像入场方向
+Editor.InEditorSetting.StrictGrid|严格吸附
+Editor.InEditorSetting.GrammarCheck|设计检查
+Editor.InEditorSetting.GrammarCheckButton|开始检查
+Editor.InEditorSetting.DeleteOFR|删除超界音符
+Editor.InEditorSetting.DeleteOFRButton|删除
+Editor.InEditorSetting.DeleteHidden|删除无效音符
+Editor.InEditorSetting.DeleteHiddenButton|删除
+
+Editor.InEditorSetting.Warning.DeleteOFR.Title|确认删除
+Editor.InEditorSetting.Warning.DeleteOFR.Content|确定要删除超界音符吗，该操作退出设置面板后可撤销
+Editor.InEditorSetting.Notice.NoOFR.Title|操作完成
+Editor.InEditorSetting.Notice.NoOFR.Content|不存在超界音符
+Editor.InEditorSetting.Notice.DeleteOFRComplete.Title|操作完成
+Editor.InEditorSetting.Notice.DeleteOFRComplete.Content|删除了 {0} 个超界音符
+
+Editor.InEditorSetting.Warning.DeleteHidden.Title|确认删除
+Editor.InEditorSetting.Warning.DeleteHidden.Content|确定要删除无效音符吗[:next]（无效音符指不显示在制谱器中，不保证其有效性的音符）[:next]该操作退出设置面板后可撤销
+Editor.InEditorSetting.Notice.NoHidden.Title|操作完成
+Editor.InEditorSetting.Notice.NoHidden.Content|不存在无效音符
+Editor.InEditorSetting.Notice.DeleteHiddenComplete.Title|操作完成
+Editor.InEditorSetting.Notice.DeleteHiddenComplete.Content|删除了 {0} 个无效音符
+
+Editor.DesignCheck.Title|设计检查
+Editor.DesignCheck.Loading|正在检查......
+Editor.DesignCheck.NoError|设计无异常
+
+Editor.DesignCheck.Priority.Urgent|异常
+Editor.DesignCheck.Priority.Warning|警告
+
+Editor.DesignCheck.Reason.OutOfRange|超出界限 : {0}
+Editor.DesignCheck.Reason.GeminiObstacle|双押齿轮
+Editor.DesignCheck.Reason.BossAlwaysOnStage|Boss 未退场
+Editor.DesignCheck.Reason.BossNoteOutOfRange|Boss 段外出现 Boss 音符 : {0}
+Editor.DesignCheck.Reason.DuplicateNote|同轨道音符重叠 : 个数 {0}
+
+Editor.DesignCheck.CopyToClipboard|复制结果至剪贴板
+Editor.DesignCheck.Finish|了解
+
+Editor.DesignCheck.Notice.ClipboardFinish.Title|复制成功
+Editor.DesignCheck.Notice.ClipboardFinish.Content|已将检查结果复制到剪贴板
+
+Editor.DesignCheck.Clipboard.Title|谱面 {0} 的设计检查结果
+
+Editor.ConfirmExit.Title|确认退出
+Editor.ConfirmExit.Content|在上次操作后未保存，是否保存后再退出？
+Editor.ConfirmExit.Save|保存
+Editor.ConfirmExit.DontSave|不保存
+Editor.ConfirmExit.Cancel|取消
+
+Setting.Title|编辑器设置
+Setting.Resolution|分辨率
+Setting.Fullscreen|全屏幕
+Setting.Language|语言
+Setting.Keybind|按键设置
+Setting.Keybind.OpenSetting|进入设置
+
+Setting.KeybindSetting.Title|键位设置
+Setting.KeybindSetting.ResetDefault|恢复默认
+Setting.KeybindSetting.Return|返回
+
+Setting.Keybind.LeftView|向左移动
+Setting.Keybind.RightView|向右移动
+Setting.Keybind.LockView|跟随时间线
+Setting.Keybind.ShowIndicator|显示指示器
+Setting.Keybind.AccelerateView|加速移动
+Setting.Keybind.MusicSpeedUp|播放加速
+Setting.Keybind.MusicSpeedDown|播放减速
+Setting.Keybind.LayerEditNext|编辑后一层级
+Setting.Keybind.LayerEditPrev|编辑前一层级
+Setting.Keybind.MusicPlaybackCtrl|播放/暂停
+Setting.Keybind.CopySelection|复制选区
+Setting.Keybind.DeleteSelection|删除选区
+Setting.Keybind.MirrorSelection|镜像选区
+Setting.Keybind.SelectAll|全选
+Setting.Keybind.AttachHeart|附加/移除红心
+Setting.Keybind.UndoOperation|撤销操作
+Setting.Keybind.RedoOperation|重做操作
+Setting.Keybind.SaveFile|保存文件
+
+Setting.KeyListener.Hint|请输入需要更改的键位（Esc 取消）
+
+Setting.UI.Save|保存
+Setting.UI.Return|返回
+Setting.UI.NeedRestart|一些更改会使编辑器重启
+Setting.UI.Keybind.ResetDefault.Title|重设键位
+Setting.UI.Keybind.ResetDefault.Content|确定要将键位设置恢复至默认值吗
+Setting.UI.Keybind.ResetDefaultFinish.Content|键位已重设至默认
+Setting.UI.ExitConfirm.Title|确认退出
+Setting.UI.ExitConfirm.Content|有设置项已更改，确认退出？
+
+Common.Edited|已修改
+Common.FileOpr.SelectFolder|选择文件夹
+Common.FileOpr.SelectFile|选择文件
+Common.Notice.Confirm|确认
+Common.Notice.Cancel|取消
