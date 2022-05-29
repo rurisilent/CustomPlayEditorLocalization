@@ -7,9 +7,9 @@ Menu.Func.New|New
 Menu.Func.Edit|Edit
 Menu.Func.Convert|Convert
 
-Create.Back.Normal|Prev.
+Create.Back.Normal|Back
 Create.Back.Special|Give up
-Create.Front.Normal|Next.
+Create.Front.Normal|Next
 Create.Front.Special|Go
 Create.Step.Normal|Step {0} / {1}
 Create.Title.Step1|Choose file format
@@ -64,7 +64,7 @@ Load.Cancel|Cancel
 Load.Select|Browse
 
 Convert.Title|Select convert mode
-Convert.Exit|Exit
+Convert.Exit|Back
 
 Editor.LoadingState.LoadInspector|Loading Inspector Data
 Editor.LoadingState.LoadFile|Loading Chart File
@@ -92,7 +92,7 @@ Editor.UI.Operation.Modify|Modify {0} objects
 Editor.UI.Operation.Copy|Copy {0} objects
 Editor.UI.Operation.Mirror|Mirror {0} objects
 
-Editor.Edit.NowSelect|Now
+Editor.Edit.NowSelect|Current
 Editor.Edit.InType|In Type
 Editor.Edit.Flowspeed|Speed
 Editor.Edit.Scene|Scene
@@ -237,16 +237,16 @@ Editor.InfoModifier.DifficultyLevel|Difficulty / Level
 Editor.InfoModifier.DifficultyTip|easy / hard / master / special
 Editor.InfoModifier.DifficultyTipBms|easy / hard / master
 Editor.InfoModifier.EndPreviewTime|End time / Demo start / Demo end
-Editor.InfoModifier.FinishEditing|Submit
+Editor.InfoModifier.FinishEditing|Save
 
 Editor.InEditorSetting.Title|In-Editor Setting
 Editor.InEditorSetting.MirrorWithDirection|Also mirror in-type
 Editor.InEditorSetting.StrictGrid|Strict grids
 Editor.InEditorSetting.GrammarCheck|Design check
 Editor.InEditorSetting.GrammarCheckButton|Start
-Editor.InEditorSetting.DeleteOFR|Del out-of-range notes
+Editor.InEditorSetting.DeleteOFR|Delete out-ranged notes
 Editor.InEditorSetting.DeleteOFRButton|Delete
-Editor.InEditorSetting.DeleteHidden|Del hidden notes
+Editor.InEditorSetting.DeleteHidden|Delete hidden notes
 Editor.InEditorSetting.DeleteHiddenButton|Delete
 
 Editor.InEditorSetting.Warning.DeleteOFR.Title|Confirm deletion

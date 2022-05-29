@@ -1,0 +1,338 @@
+#MDCP LOCALIZATION FILE
+#LANGNAME Japanese (Japan)
+#FORMAT Key|Value
+#AUTHOR 水銀 & lxy
+
+Menu.Func.New|新規作成
+Menu.Func.Edit|編集
+Menu.Func.Convert|変換
+
+Create.Back.Normal|戻る
+Create.Back.Special|諦める
+Create.Front.Normal|次へ
+Create.Front.Special|Go
+Create.Step.Normal|Step {0} / {1}
+Create.Title.Step1|ファイル形式を選択
+Create.Title.Step2|オプションを保存
+Create.Title.Step3|BPM setting
+Create.Title.Step4|More informations
+
+Create.FileType.MDCPMF|Muse Dash CustomPlay フォーマット(推奨)
+Create.FileType.BMS|Muse Dash フォーマット
+
+Create.FilePath.MapSavePath|フォルダパス
+Create.FilePath.MapSavePathBMS|ファイルパス
+Create.FilePath.MapFolderName|フォルダネーム
+Create.FilePath.MapFileName|ファイルネーム
+Create.FilePath.MusicFile|ミュージックファイル
+Create.FilePath.Select|選択
+Create.FilePath.LastUsed|履歴
+Create.FilePath.HasSelected|選択済
+
+Create.FilePath.NoLastPath.Title|失敗
+Create.FilePath.NoLastPath.Content|履歴がありません
+Create.FilePath.SelectPath.Title|譜面フォルダを保存する場所を選択
+Create.FilePath.SelectPathBMS.Title|譜面フォルダを保存する場所を選択
+Create.FilePath.SelectMusic.Title|ミュージックファイルを選択
+Create.FilePath.IllegalFolder.IllegalName|違法なファイル名
+Create.FilePath.IllegalFolder.Duplicated|他のフォルダと名前を共有する
+Create.FilePath.IllegalFile.IllegalName|違法なファイル名
+Create.FilePath.IllegalFile.Duplicated|他のフォルダと名前を共有する
+Create.FilePath.MusicFileError.Title|失敗
+Create.FilePath.MusicFileError.Content|ミュージックファイルが無効です
+
+Create.FileInfo.BPM.AnalyzeNormal|検出(通常)
+Create.FileInfo.BPM.AnalyzeHyper|検出(高範囲)
+Create.FileInfo.BPM.WhenUseAnalyzer|BPMが300を超えると予想される場合にのみ、ハイレンジモードを使用してください[:next]結果は参考用です。このトラックの正確なBPMがわかっている場合は、直接記入してください。
+Create.FileInfo.BPM.Introduction|BPM(1分あたりのBeats)は音楽の基礎です。正しいBPMを入力することは、チャート作成に大いに役立ちます。
+
+Create.FileInfo.BPM.Analyzing|検出する
+Create.FileInfo.BPM.LoadClipFailed|クリップの読み込みに失敗しました
+Create.FileInfo.BPM.AnalyzeFailed|検出に失敗しました
+Create.FileInfo.BPM.Analyzed|可能なBPM: [:next]<size=36>{0}</size>
+
+Create.Error.CannotContinue.Title|続行できません
+Create.Error.CannotContinue.Content|情報の欠落または誤った情報が提供された
+Create.Error.BPMError.Content|正しいBPMを入れてください
+
+Create.Template.UnnamedChart|Untitled
+Create.Template.UnknownArtist|Unknown Artists
+Create.Template.UnknownCharter|Unknown Designer
+
+Load.FileFormat|ファイル形式を選択
+Load.Cancel|キャンセル
+Load.Select|ブラウズ
+
+Convert.Title|変換方法を選択
+Convert.Exit|戻る
+
+Editor.LoadingState.LoadInspector|インスペクタデータの読み込み
+Editor.LoadingState.LoadFile|譜面ファイルの読み込み中
+Editor.LoadingState.ReadFile|譜面ファイルの書き込み中
+Editor.LoadingState.ReadMusic|ミュージックファイルの読み込み中
+Editor.LoadingState.LoadExternal|外部リソースの読み込み中
+Editor.LoadingState.LoadEditor|エディタの開始
+
+Editor.UI.SectionSetting|グリッド
+Editor.UI.BackToMenu|ホーム
+Editor.UI.MapLayer|マップレイヤー
+Editor.UI.NoteInfo.Total|トータル
+Editor.UI.NoteInfo.Combo|コンボ
+Editor.UI.NoteInfo.Obstacle|スパイク
+Editor.UI.NoteInfo.Collectible|コレクティブル
+Editor.UI.SaveFile|保存
+Editor.UI.AutoSave|オートセーブ
+Editor.UI.UndoOperation|元に戻す
+Editor.UI.RedoOperation|やり直す
+Editor.UI.UndoFailed.StackEmpty|元に戻すものがありません
+Editor.UI.RedoFailed.StackEmpty|やり直すものがありません
+Editor.UI.Operation.Create|製作した {0}オブジェクト
+Editor.UI.Operation.Delete|削除した {0}オブジェクト
+Editor.UI.Operation.Modify|変更した {0}オブジェクト
+Editor.UI.Operation.Copy|コピーした {0}オブジェクト
+Editor.UI.Operation.Mirror|反転させた {0}オブジェクト
+
+Editor.Edit.NowSelect|現在の
+Editor.Edit.InType|インタイプ
+Editor.Edit.Flowspeed|スピード
+Editor.Edit.Scene|シーン
+
+Editor.Edit.Type.Normal|普通
+Editor.Edit.Type.Action|アクション
+Editor.Edit.Type.Effect|エフェクト
+Editor.Edit.Type.BeatControl|ツール
+Editor.Edit.Type.BMSRelated|BMS
+
+Editor.Edit.NoteType.small_1|小敵 I
+Editor.Edit.NoteType.mid_1|中敵 I
+Editor.Edit.NoteType.mid_2|中敵 II
+Editor.Edit.NoteType.large_1|大敵 I
+Editor.Edit.NoteType.large_2|大敵 II
+Editor.Edit.NoteType.ghost|ゴースト
+Editor.Edit.NoteType.assault|ライダー
+Editor.Edit.NoteType.hammer|ハンマー
+Editor.Edit.NoteType.gear|歯車
+Editor.Edit.NoteType.long|ホールド
+Editor.Edit.NoteType.long_short|ホールド(インスタント)
+Editor.Edit.NoteType.double|同時押し
+Editor.Edit.NoteType.punch|痴漢
+Editor.Edit.NoteType.boss_ra|ボス同場
+Editor.Edit.NoteType.boss_ra_out|ボス退場
+Editor.Edit.NoteType.boss_ra_far_atk_1|ボスノーツ I
+Editor.Edit.NoteType.boss_ra_far_atk_2|ボスノーツ II-1
+Editor.Edit.NoteType.boss_ra_far_atk_3|ボスノーツ II-2
+Editor.Edit.NoteType.boss_ra_gear|ボス歯車
+Editor.Edit.NoteType.boss_ra_atk_1|ボス突進
+Editor.Edit.NoteType.boss_ra_atk_1_wait|ボス溜め突進
+Editor.Edit.NoteType.boss_ra_punch|ボス連打
+Editor.Edit.NoteType.boss_ra_punch_out|ボス連打&退場
+Editor.Edit.NoteType.special_note|音符
+Editor.Edit.NoteType.special_hp|ハート
+Editor.Edit.NoteType.special_pigeon|鳩
+Editor.Edit.NoteType.boss_ra_far_atk_1_start|ボスフェーズⅠスタート
+Editor.Edit.NoteType.boss_ra_far_atk_2_start|ボスフェーズⅡスタート
+Editor.Edit.NoteType.boss_ra_far_atk_1_end|ボスフェーズⅠエンド
+Editor.Edit.NoteType.boss_ra_far_atk_2_end|ボスフェーズⅡエンド
+Editor.Edit.NoteType.boss_ra_far_atk_1_to_2|ボスフェーズⅠからⅡへ
+Editor.Edit.NoteType.boss_ra_far_atk_2_to_1|ボスフェーズⅡからⅠへ
+Editor.Edit.NoteType.effect_timing|タイミング
+Editor.Edit.NoteType.preset_beatbpm|BPMツール
+Editor.Edit.NoteType.vfx_changescene|シーンの変更
+Editor.Edit.NoteType.vfx_visibility_show|ノーツを表示
+Editor.Edit.NoteType.vfx_visibility_hide|ノーツを非表示
+Editor.Edit.NoteType.vfx_bossvisibility_show|ボスを表示
+Editor.Edit.NoteType.vfx_bossvisibility_hide|ボスを非表示
+
+Editor.Edit.NoteType.bms_touhou_ppoint|点P
+
+Editor.Edit.NoteType.bms_hidebg|シーンの非表示
+Editor.Edit.NoteType.bms_showbg|シーンの表示
+Editor.Edit.NoteType.bms_scrollup|スクロールアップ
+Editor.Edit.NoteType.bms_scrolldown|スクロールダウン
+Editor.Edit.NoteType.bms_scrollend|スクロールエンド
+Editor.Edit.NoteType.bms_glitch|グリッチ
+Editor.Edit.NoteType.bms_glitchend|グリッチエンド
+Editor.Edit.NoteType.bms_rgb|RGBグリッチ
+Editor.Edit.NoteType.bms_rgbend|RGBグリッチエンド
+Editor.Edit.NoteType.bms_darkedge|ダークエッジ
+Editor.Edit.NoteType.bms_darkedgeend|ダークエッジエンド
+Editor.Edit.NoteType.bms_nosignal|ノーシグナル
+Editor.Edit.NoteType.bms_nosignalend|ノーシグナルエンド
+Editor.Edit.NoteType.bms_flare|フレア
+Editor.Edit.NoteType.bms_flareintense|強烈なフレア
+Editor.Edit.NoteType.bms_flareend|フレアエンド
+Editor.Edit.NoteType.bms_scenepause|シーンの一時停止
+Editor.Edit.NoteType.bms_scenepauseend|シーンの一時停止の終了
+
+Editor.Select.SelectedCount|選択済
+
+Editor.Select.Inspector.Type|タイプ
+Editor.Select.Inspector.TypeUI.Title|タイプを変える
+Editor.Select.Inspector.TypeUI.Exit|出る
+Editor.Select.Inspector.Speed|スピード
+Editor.Select.Inspector.InType|インタイプ
+Editor.Select.Inspector.Track|トラック
+Editor.Select.Inspector.Layer|レイヤー
+Editor.Select.Inspector.LayerUI.Title|レイヤーに切り替えて編集する
+Editor.Select.Inspector.LayerUI.Exit|出る
+Editor.Select.Inspector.InTime|インタイム
+Editor.Select.Inspector.OutTime|アウトタイム
+Editor.Select.Inspector.Timing|タイミング
+
+Editor.Select.Filter.CloseHint|スペースキーをクリックして閉じる
+Editor.Select.Filter.EditableLayer|選択可能なレイヤー
+Editor.Select.Filter.EditableType|選択可能なノーツタイプ
+
+Editor.Select.Filter.NoteType.track|普通
+Editor.Select.Filter.NoteType.boss_action|ボスアクション
+Editor.Select.Filter.NoteType.timing|タイミング
+Editor.Select.Filter.NoteType.vfx|普通のVFX
+Editor.Select.Filter.NoteType.vfx_scene|シーンの変更
+Editor.Select.Filter.NoteType.vfx_visibility|ノーツの可視性
+Editor.Select.Filter.NoteType.vfx_bossvisibility|ボスの可視性
+
+Editor.Select.SelectionFilter.Layer.OnlyEditing|現在のマップレイヤー
+Editor.Select.SelectionFilter.Layer.MapLayer|マップレイヤー {0}
+
+Editor.VFXChangeScene.UI.Title|シーンを選択(スペースキーをクリックして閉じる)
+
+Editor.SectionSetting.Title|グリッドの設定
+Editor.SectionSetting.BasicBPM|BPM
+Editor.SectionSetting.Division|分割
+Editor.SectionSetting.CustomizeDiv|カスタム
+Editor.SectionSetting.BasicBeat|ビート
+Editor.SectionSetting.BeatNume|分子
+Editor.SectionSetting.BeatDeno|分母
+Editor.SectionSetting.BeatNote.Whole|全体の内の
+Editor.SectionSetting.BeatNote.Half|半分
+Editor.SectionSetting.BeatNote.Quarter|1/4
+Editor.SectionSetting.BeatNote.Eighth|1/8
+Editor.SectionSetting.BeatNote.Sixteenth|1/16
+Editor.SectionSetting.BeatNote.ThirtySecond|1/32
+Editor.SectionSetting.NowBeat|今
+Editor.SectionSetting.SelectBeat|セット
+Editor.SectionSetting.ShowLine|グリッドの表示
+Editor.SectionSetting.HideLine|グリッドの非表示
+Editor.SectionSetting.Set|セット
+Editor.SectionSetting.Save|完了
+
+Editor.MapLayerSetting.Title|マップレイヤーの設定
+Editor.MapLayerSetting.NowEditing|編集中
+Editor.MapLayerSetting.Show|見える
+Editor.MapLayerSetting.Hide|見えない
+Editor.MapLayerSetting.EditChangeHint|バインドされたキーを使用してレイヤーを切り替える
+Editor.MapLayerSetting.Display|マップレイヤーの表示
+Editor.MapLayerSetting.Hint|カードをクリックして可視性を切り替える[:next]赤いボタンをクリックしてマップレイヤーを削除します(やり直しできません)[:next]各マップレイヤーには一意のIDがあります
+Editor.MapLayerSetting.AddLayer|マップレイヤーの追加
+Editor.MapLayerSetting.Save|完了
+Editor.MapLayerSetting.Delete|削除
+Editor.MapLayerSetting.ConfirmDelete|このマップレイヤーを削除してもよろしいですか?({0}秒後にキャンセル)
+Editor.MapLayerSetting.DeleteFailed.Title|削除失敗
+Editor.MapLayerSetting.DeleteFailed.Content|少なくとも1つのマップレイヤー
+
+Editor.InfoModifier.Tip|データ修飾子(新しい値を入力)[:next]データフィールドにリターン/入力しないでください
+Editor.InfoModifier.ChartName|タイトル
+Editor.InfoModifier.ArtistDesigner|アーティスト/デザイナー
+Editor.InfoModifier.DifficultyLevel|難易度/レベル
+Editor.InfoModifier.DifficultyTip|easy / hard / master / special
+Editor.InfoModifier.DifficultyTipBms|easy / hard / master
+Editor.InfoModifier.EndPreviewTime|曲の長さ / デモ音源スタート / デモ音源エンド
+Editor.InfoModifier.FinishEditing|保存
+
+Editor.InEditorSetting.Title|エディタ内設定
+Editor.InEditorSetting.MirrorWithDirection|ミラーの中のタイプも
+Editor.InEditorSetting.StrictGrid|厳しいグリッド
+Editor.InEditorSetting.GrammarCheck|デザインチェック
+Editor.InEditorSetting.GrammarCheckButton|スタート
+Editor.InEditorSetting.DeleteOFR|範囲外のノーツを削除する
+Editor.InEditorSetting.DeleteOFRButton|削除
+Editor.InEditorSetting.DeleteHidden|非表示のノーツを削除する
+Editor.InEditorSetting.DeleteHiddenButton|削除
+
+Editor.InEditorSetting.Warning.DeleteOFR.Title|削除の確認
+Editor.InEditorSetting.Warning.DeleteOFR.Content|範囲外のメモを削除してもよろしいですか?[:next]これは後で元に戻すことができます
+Editor.InEditorSetting.Notice.NoOFR.Title|操作完了
+Editor.InEditorSetting.Notice.NoOFR.Content|範囲外のノートは存在しません
+Editor.InEditorSetting.Notice.DeleteOFRComplete.Title|操作完了
+Editor.InEditorSetting.Notice.DeleteOFRComplete.Content|削除された{0}範囲外のメモ
+
+Editor.InEditorSetting.Warning.DeleteHidden.Title|削除の確認
+Editor.InEditorSetting.Warning.DeleteHidden.Content|隠しメモを削除してもよろしいですか?[:next](これらのメモはエディタによって認識されますが、表示されません)[:next]これは後で元に戻すことができます
+Editor.InEditorSetting.Notice.NoHidden.Title|操作完了
+Editor.InEditorSetting.Notice.NoHidden.Content|非表示のノーツは存在しません
+Editor.InEditorSetting.Notice.DeleteHiddenComplete.Title|操作完了
+Editor.InEditorSetting.Notice.DeleteHiddenComplete.Content|削除された{0}非表示のノーツ
+
+Editor.DesignCheck.Title|デザインチェック
+Editor.DesignCheck.Loading|処理中......
+Editor.DesignCheck.NoError|全て順調です
+
+Editor.DesignCheck.Priority.Urgent|緊急
+Editor.DesignCheck.Priority.Warning|警告
+
+Editor.DesignCheck.Reason.OutOfRange|範囲外 : {0}
+Editor.DesignCheck.Reason.GeminiObstacle|ジェミニスパイク
+Editor.DesignCheck.Reason.BossAlwaysOnStage|ステージに残るボス
+Editor.DesignCheck.Reason.BossNoteOutOfRange|ボスノーツが間違った場所に存在しています : {0}
+Editor.DesignCheck.Reason.DuplicateNote|重複したメモ : カウント {0}
+
+Editor.DesignCheck.CopyToClipboard|クリップボードにコピー
+Editor.DesignCheck.Finish|閉じる
+
+Editor.DesignCheck.Notice.ClipboardFinish.Title|コピー済
+Editor.DesignCheck.Notice.ClipboardFinish.Content|結果はクリップボードにコピー済です
+
+Editor.DesignCheck.Clipboard.Title|{0} 設計チェックの結果
+
+Editor.ConfirmExit.Title|終了確認
+Editor.ConfirmExit.Content|変更が保存されていません、保存しますか?
+Editor.ConfirmExit.Save|保存
+Editor.ConfirmExit.DontSave|保存しない
+Editor.ConfirmExit.Cancel|キャンセル
+
+Setting.Title|編集の設定
+Setting.Resolution|決定
+Setting.Fullscreen|フルスクリーン
+Setting.Language|言語
+Setting.Keybind|キーバインド
+Setting.Keybind.OpenSetting|設定パネルを開く
+
+Setting.KeybindSetting.Title|キーバインドの設定
+Setting.KeybindSetting.ResetDefault|デフォルト
+Setting.KeybindSetting.Return|保存
+
+Setting.Keybind.LeftView|左にスクロール
+Setting.Keybind.RightView|右にスクロール
+Setting.Keybind.LockView|再生ラインをフォローする
+Setting.Keybind.ShowIndicator|指標の表示
+Setting.Keybind.AccelerateView|カメラの加速度
+Setting.Keybind.MusicSpeedUp|曲の加速
+Setting.Keybind.MusicSpeedDown|曲の減速
+Setting.Keybind.LayerEditNext|次のマップレイヤー
+Setting.Keybind.LayerEditPrev|前のマップレイヤー
+Setting.Keybind.MusicPlaybackCtrl|再生/一時停止
+Setting.Keybind.CopySelection|選択範囲をコピー
+Setting.Keybind.DeleteSelection|選択範囲を削除
+Setting.Keybind.MirrorSelection|選択範囲を反転
+Setting.Keybind.SelectAll|全て選択
+Setting.Keybind.AttachHeart|ハートの取り付け/取り外し
+Setting.Keybind.UndoOperation|元に戻す
+Setting.Keybind.RedoOperation|やり直す
+Setting.Keybind.SaveFile|保存失敗
+
+Setting.KeyListener.Hint|リスニング入力(Escキーでキャンセル)
+
+Setting.UI.Save|保存
+Setting.UI.Return|保存しない
+Setting.UI.NeedRestart|再起動が必要です
+Setting.UI.Keybind.ResetDefault.Title|キーバインドのリセット
+Setting.UI.Keybind.ResetDefault.Content|キーバインドをデフォルトに設定しますか
+Setting.UI.Keybind.ResetDefaultFinish.Content|キーバインドがリセットされました
+Setting.UI.ExitConfirm.Title|終了確認
+Setting.UI.ExitConfirm.Content|設定が適用されていませんが、終了しますか?
+
+Common.Edited|編集済
+Common.FileOpr.SelectFolder|フォルダの選択
+Common.FileOpr.SelectFile|ファイルの選択
+Common.Notice.Confirm|確認
+Common.Notice.Cancel|キャンセル
