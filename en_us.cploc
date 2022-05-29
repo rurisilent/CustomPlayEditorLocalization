@@ -248,6 +248,8 @@ Editor.InEditorSetting.DeleteOFR|Delete out-ranged notes
 Editor.InEditorSetting.DeleteOFRButton|Delete
 Editor.InEditorSetting.DeleteHidden|Delete hidden notes
 Editor.InEditorSetting.DeleteHiddenButton|Delete
+Editor.InEditorSetting.RenameBmsMusic|Rename BMS Music
+Editor.InEditorSetting.RenameBmsMusicButton|Rename
 
 Editor.InEditorSetting.Warning.DeleteOFR.Title|Confirm deletion
 Editor.InEditorSetting.Warning.DeleteOFR.Content|Are you sure to delete out-of-range notes?[:next]You can undo this later
@@ -266,23 +268,29 @@ Editor.InEditorSetting.Notice.DeleteHiddenComplete.Content|Deleted {0} hidden no
 Editor.DesignCheck.Title|Design Check
 Editor.DesignCheck.Loading|Processing......
 Editor.DesignCheck.NoError|All is well
-
 Editor.DesignCheck.Priority.Urgent|Urgent
 Editor.DesignCheck.Priority.Warning|Warning
-
 Editor.DesignCheck.Reason.OutOfRange|Out of range : {0}
 Editor.DesignCheck.Reason.GeminiObstacle|Gemini spikes
 Editor.DesignCheck.Reason.BossAlwaysOnStage|Boss remaining on stage
 Editor.DesignCheck.Reason.BossNoteOutOfRange|Boss note exists in wrong place : {0}
 Editor.DesignCheck.Reason.DuplicateNote|Duplicate notes : Count {0}
-
 Editor.DesignCheck.CopyToClipboard|Copy to clipboard
 Editor.DesignCheck.Finish|Close
-
 Editor.DesignCheck.Notice.ClipboardFinish.Title|Copied
 Editor.DesignCheck.Notice.ClipboardFinish.Content|Finished copying the result to clipboard
-
 Editor.DesignCheck.Clipboard.Title|{0} Design check result
+
+Editor.RenameBmsMusic.Title|BMS Music File Rename
+Editor.RenameBmsMusic.Tip|Modify the music name defined by #WAV10 tag[:next]Current music file will be automatically renamed
+Editor.RenameBmsMusic.Cancel|Cancel
+Editor.RenameBmsMusic.Confirm|Confirm
+Editor.RenameBmsMusic.Notice.NoInput.Title|No Input
+Editor.RenameBmsMusic.Notice.NoInput.Content|Nothing done
+Editor.RenameBmsMusic.Notice.Success.Title|Success
+Editor.RenameBmsMusic.Notice.Success.Content|Rename success
+Editor.RenameBmsMusic.Notice.SuccessWithoutFileOpr.Title|Success
+Editor.RenameBmsMusic.Notice.SuccessWithoutFileOpr.Content|Rename success，but the music file could not be found
 
 Editor.ConfirmExit.Title|Confirm exit
 Editor.ConfirmExit.Content|Changes not saved，want to save?
@@ -319,6 +327,20 @@ Setting.Keybind.AttachHeart|Attach / Remove heart
 Setting.Keybind.UndoOperation|Undo
 Setting.Keybind.RedoOperation|Redo
 Setting.Keybind.SaveFile|Save File
+Setting.Keybind.ToggleMagnet|Toggle magnet
+Setting.Keybind.ToggleDirectionUp|Toggle in-type：Up
+Setting.Keybind.ToggleDirectionNormal|Toggle in-type：Normal
+Setting.Keybind.ToggleDirectionDown|Toggle in-type: Down
+Setting.Keybind.ToggleSpeedLow|Toggle speed: Low
+Setting.Keybind.ToggleSpeedMedium|Toggle speed: Medium
+Setting.Keybind.ToggleSpeedHigh|Toggle speed: High
+Setting.Keybind.ToggleNoteTypeA|Toggle type: Common
+Setting.Keybind.ToggleNoteTypeB|Toggle type: Action
+Setting.Keybind.ToggleNoteTypeC|Toggle type: Effect
+Setting.Keybind.ToggleNoteTypeD|Toggle type: Tools
+Setting.Keybind.ToggleNoteTypeE|Toggle type: BMS
+Setting.Keybind.ToggleMode|Toggle mode
+Setting.Keybind.ToggleSubMode|Toggle sub-mode
 
 Setting.KeyListener.Hint|Listening Input（Esc to cancel）
 

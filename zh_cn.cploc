@@ -253,6 +253,8 @@ Editor.InEditorSetting.DeleteOFR|删除超界音符
 Editor.InEditorSetting.DeleteOFRButton|删除
 Editor.InEditorSetting.DeleteHidden|删除无效音符
 Editor.InEditorSetting.DeleteHiddenButton|删除
+Editor.InEditorSetting.RenameBmsMusic|重命名 BMS 音频
+Editor.InEditorSetting.RenameBmsMusicButton|修改
 
 Editor.InEditorSetting.Warning.DeleteOFR.Title|确认删除
 Editor.InEditorSetting.Warning.DeleteOFR.Content|确定要删除超界音符吗，该操作退出设置面板后可撤销
@@ -271,23 +273,29 @@ Editor.InEditorSetting.Notice.DeleteHiddenComplete.Content|删除了 {0} 个无�
 Editor.DesignCheck.Title|设计检查
 Editor.DesignCheck.Loading|正在检查......
 Editor.DesignCheck.NoError|设计无异常
-
 Editor.DesignCheck.Priority.Urgent|异常
 Editor.DesignCheck.Priority.Warning|警告
-
 Editor.DesignCheck.Reason.OutOfRange|超出界限 : {0}
 Editor.DesignCheck.Reason.GeminiObstacle|双押齿轮
 Editor.DesignCheck.Reason.BossAlwaysOnStage|Boss 未退场
 Editor.DesignCheck.Reason.BossNoteOutOfRange|Boss 段外出现 Boss 音符 : {0}
 Editor.DesignCheck.Reason.DuplicateNote|同轨道音符重叠 : 个数 {0}
-
 Editor.DesignCheck.CopyToClipboard|复制结果至剪贴板
 Editor.DesignCheck.Finish|了解
-
 Editor.DesignCheck.Notice.ClipboardFinish.Title|复制成功
 Editor.DesignCheck.Notice.ClipboardFinish.Content|已将检查结果复制到剪贴板
-
 Editor.DesignCheck.Clipboard.Title|谱面 {0} 的设计检查结果
+
+Editor.RenameBmsMusic.Title|BMS 音乐文件重命名
+Editor.RenameBmsMusic.Tip|修改由 #WAV10 标签定义的音频名称[:next]修改后会自动重命名现在使用的音频文件
+Editor.RenameBmsMusic.Cancel|不中嘞，哥
+Editor.RenameBmsMusic.Confirm|中嘞，哥
+Editor.RenameBmsMusic.Notice.NoInput.Title|缺少输入
+Editor.RenameBmsMusic.Notice.NoInput.Content|输入为空，默认不修改
+Editor.RenameBmsMusic.Notice.Success.Title|成功
+Editor.RenameBmsMusic.Notice.Success.Content|重命名音频文件成功
+Editor.RenameBmsMusic.Notice.SuccessWithoutFileOpr.Title|成功，但是没有完全成功
+Editor.RenameBmsMusic.Notice.SuccessWithoutFileOpr.Content|重命名成功，但未能找到先前的音频文件用以重命名
 
 Editor.ConfirmExit.Title|确认退出
 Editor.ConfirmExit.Content|在上次操作后未保存，是否保存后再退出？
@@ -324,6 +332,20 @@ Setting.Keybind.AttachHeart|附加/移除红心
 Setting.Keybind.UndoOperation|撤销操作
 Setting.Keybind.RedoOperation|重做操作
 Setting.Keybind.SaveFile|保存文件
+Setting.Keybind.ToggleMagnet|开关磁铁
+Setting.Keybind.ToggleDirectionUp|切换入场：上
+Setting.Keybind.ToggleDirectionNormal|切换入场：平
+Setting.Keybind.ToggleDirectionDown|切换入场：下
+Setting.Keybind.ToggleSpeedLow|切换速度：低
+Setting.Keybind.ToggleSpeedMedium|切换速度：中
+Setting.Keybind.ToggleSpeedHigh|切换速度：高
+Setting.Keybind.ToggleNoteTypeA|切换分类：常规音符
+Setting.Keybind.ToggleNoteTypeB|切换分类：动作音符
+Setting.Keybind.ToggleNoteTypeC|切换分类：特效音符
+Setting.Keybind.ToggleNoteTypeD|切换分类：节拍工具
+Setting.Keybind.ToggleNoteTypeE|切换分类：BMS
+Setting.Keybind.ToggleMode|切换模式
+Setting.Keybind.ToggleSubMode|切换子模式
 
 Setting.KeyListener.Hint|请输入需要更改的键位（Esc 取消）
 

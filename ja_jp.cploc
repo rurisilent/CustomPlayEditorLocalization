@@ -1,5 +1,5 @@
 #MDCP LOCALIZATION FILE
-#LANGNAME Japanese (Japan)
+#LANGNAME 日本語
 #FORMAT Key|Value
 #AUTHOR 水銀 & lxy
 
@@ -248,6 +248,8 @@ Editor.InEditorSetting.DeleteOFR|範囲外のノーツを削除する
 Editor.InEditorSetting.DeleteOFRButton|削除
 Editor.InEditorSetting.DeleteHidden|非表示のノーツを削除する
 Editor.InEditorSetting.DeleteHiddenButton|削除
+Editor.InEditorSetting.RenameBmsMusic|Rename BMS Music
+Editor.InEditorSetting.RenameBmsMusicButton|Rename
 
 Editor.InEditorSetting.Warning.DeleteOFR.Title|削除の確認
 Editor.InEditorSetting.Warning.DeleteOFR.Content|範囲外のメモを削除してもよろしいですか?[:next]これは後で元に戻すことができます
@@ -266,23 +268,29 @@ Editor.InEditorSetting.Notice.DeleteHiddenComplete.Content|削除された{0}非
 Editor.DesignCheck.Title|デザインチェック
 Editor.DesignCheck.Loading|処理中......
 Editor.DesignCheck.NoError|全て順調です
-
 Editor.DesignCheck.Priority.Urgent|緊急
 Editor.DesignCheck.Priority.Warning|警告
-
 Editor.DesignCheck.Reason.OutOfRange|範囲外 : {0}
 Editor.DesignCheck.Reason.GeminiObstacle|ジェミニスパイク
 Editor.DesignCheck.Reason.BossAlwaysOnStage|ステージに残るボス
 Editor.DesignCheck.Reason.BossNoteOutOfRange|ボスノーツが間違った場所に存在しています : {0}
 Editor.DesignCheck.Reason.DuplicateNote|重複したメモ : カウント {0}
-
 Editor.DesignCheck.CopyToClipboard|クリップボードにコピー
 Editor.DesignCheck.Finish|閉じる
-
 Editor.DesignCheck.Notice.ClipboardFinish.Title|コピー済
 Editor.DesignCheck.Notice.ClipboardFinish.Content|結果はクリップボードにコピー済です
-
 Editor.DesignCheck.Clipboard.Title|{0} 設計チェックの結果
+
+Editor.RenameBmsMusic.Title|BMS Music File Rename
+Editor.RenameBmsMusic.Tip|Modify the music name defined by #WAV10 tag[:next]Current music file will be automatically renamed
+Editor.RenameBmsMusic.Cancel|Cancel
+Editor.RenameBmsMusic.Confirm|Confirm
+Editor.RenameBmsMusic.Notice.NoInput.Title|No Input
+Editor.RenameBmsMusic.Notice.NoInput.Content|Nothing done
+Editor.RenameBmsMusic.Notice.Success.Title|Success
+Editor.RenameBmsMusic.Notice.Success.Content|Rename success
+Editor.RenameBmsMusic.Notice.SuccessWithoutFileOpr.Title|Success
+Editor.RenameBmsMusic.Notice.SuccessWithoutFileOpr.Content|Rename success，but the music file could not be found
 
 Editor.ConfirmExit.Title|終了確認
 Editor.ConfirmExit.Content|変更が保存されていません、保存しますか?
@@ -319,6 +327,20 @@ Setting.Keybind.AttachHeart|ハートの取り付け/取り外し
 Setting.Keybind.UndoOperation|元に戻す
 Setting.Keybind.RedoOperation|やり直す
 Setting.Keybind.SaveFile|保存失敗
+Setting.Keybind.ToggleMagnet|Toggle magnet
+Setting.Keybind.ToggleDirectionUp|Toggle in-type：Up
+Setting.Keybind.ToggleDirectionNormal|Toggle in-type：Normal
+Setting.Keybind.ToggleDirectionDown|Toggle in-type: Down
+Setting.Keybind.ToggleSpeedLow|Toggle speed: Low
+Setting.Keybind.ToggleSpeedMedium|Toggle speed: Medium
+Setting.Keybind.ToggleSpeedHigh|Toggle speed: High
+Setting.Keybind.ToggleNoteTypeA|Toggle type: Common
+Setting.Keybind.ToggleNoteTypeB|Toggle type: Action
+Setting.Keybind.ToggleNoteTypeC|Toggle type: Effect
+Setting.Keybind.ToggleNoteTypeD|Toggle type: Tools
+Setting.Keybind.ToggleNoteTypeE|Toggle type: BMS
+Setting.Keybind.ToggleMode|Toggle mode
+Setting.Keybind.ToggleSubMode|Toggle sub-mode
 
 Setting.KeyListener.Hint|リスニング入力(Escキーでキャンセル)
 
