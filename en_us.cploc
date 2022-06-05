@@ -300,6 +300,7 @@ Editor.ConfirmExit.Cancel|Cancel
 
 Setting.Title|Editor setting
 Setting.Resolution|Resolution
+Setting.Framerate|Framerate
 Setting.Fullscreen|Fullscreen
 Setting.Language|Language
 Setting.Keybind|Keybind

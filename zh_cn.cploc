@@ -305,6 +305,7 @@ Editor.ConfirmExit.Cancel|取消
 
 Setting.Title|编辑器设置
 Setting.Resolution|分辨率
+Setting.Framerate|帧率
 Setting.Fullscreen|全屏幕
 Setting.Language|语言
 Setting.Keybind|按键设置

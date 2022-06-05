@@ -300,6 +300,7 @@ Editor.ConfirmExit.Cancel|キャンセル
 
 Setting.Title|編集の設定
 Setting.Resolution|決定
+Setting.Framerate|帧率
 Setting.Fullscreen|フルスクリーン
 Setting.Language|言語
 Setting.Keybind|キーバインド
