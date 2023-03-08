@@ -106,6 +106,7 @@ Editor.Edit.Type.Normal|常规音符
 Editor.Edit.Type.Action|动作音符
 Editor.Edit.Type.Effect|特效音符
 Editor.Edit.Type.BeatControl|节拍工具
+Editor.Edit.Type.MDCPRelated|MDCP
 Editor.Edit.Type.BMSRelated|BMS
 
 Editor.Edit.NoteType.small_1|小型 I
@@ -134,19 +135,22 @@ Editor.Edit.NoteType.boss_ra_punch_out|首领连打退场
 Editor.Edit.NoteType.special_note|音符
 Editor.Edit.NoteType.special_hp|红心
 Editor.Edit.NoteType.special_pigeon|首领鸽子
-Editor.Edit.NoteType.boss_ra_far_atk_1_start|首领远程 I 开始
-Editor.Edit.NoteType.boss_ra_far_atk_2_start|首领远程 II 开始
-Editor.Edit.NoteType.boss_ra_far_atk_1_end|首领远程 I 结束
-Editor.Edit.NoteType.boss_ra_far_atk_2_end|首领远程 II 结束
-Editor.Edit.NoteType.boss_ra_far_atk_1_to_2|首领远程 I 至 II
-Editor.Edit.NoteType.boss_ra_far_atk_2_to_1|首领远程 II 至 I
+Editor.Edit.NoteType.boss_ra_far_atk_1_action_start|首领远程 I 开始
+Editor.Edit.NoteType.boss_ra_far_atk_2_action_start|首领远程 II 开始
+Editor.Edit.NoteType.boss_ra_far_atk_1_action_end|首领远程 I 结束
+Editor.Edit.NoteType.boss_ra_far_atk_2_action_end|首领远程 II 结束
+Editor.Edit.NoteType.boss_ra_far_atk_1_to_2_action|首领远程 I 至 II
+Editor.Edit.NoteType.boss_ra_far_atk_2_to_1_action|首领远程 II 至 I
 Editor.Edit.NoteType.effect_timing|时间重映射
+Editor.Edit.NoteType.effect_scene_timing|场景变速
 Editor.Edit.NoteType.preset_beatbpm|节拍调整工具
 Editor.Edit.NoteType.vfx_changescene|场景切换
 Editor.Edit.NoteType.vfx_visibility_show|Note 显示
 Editor.Edit.NoteType.vfx_visibility_hide|Note 隐藏
 Editor.Edit.NoteType.vfx_bossvisibility_show|首领显示
 Editor.Edit.NoteType.vfx_bossvisibility_hide|首领隐藏
+Editor.Edit.NoteType.curvehold_red|曲线长条·红
+Editor.Edit.NoteType.curvehold_blue|曲线长条·蓝
 
 Editor.Edit.NoteType.bms_touhou_ppoint|P点
 
@@ -189,12 +193,22 @@ Editor.Select.Filter.EditableLayer|可选中的层级
 Editor.Select.Filter.EditableType|可选中的 Note 分类
 
 Editor.Select.Filter.NoteType.track|普通音符
+Editor.Select.Filter.NoteType.curve|曲线长条
 Editor.Select.Filter.NoteType.boss_action|Boss 动作
 Editor.Select.Filter.NoteType.timing|时间重映射
+Editor.Select.Filter.NoteType.scene_timing|场景变速
 Editor.Select.Filter.NoteType.vfx|通用特效
 Editor.Select.Filter.NoteType.vfx_scene|场景切换
 Editor.Select.Filter.NoteType.vfx_visibility|Note 可见性
 Editor.Select.Filter.NoteType.vfx_bossvisibility|Boss 可见性
+Editor.Select.Filter.NoteType.vfx_bgvisibility|场景可见性
+Editor.Select.Filter.NoteType.vfx_screenscroll|画面滚动
+Editor.Select.Filter.NoteType.vfx_glitch|画面干扰
+Editor.Select.Filter.NoteType.vfx_chromatic|RGB 分离
+Editor.Select.Filter.NoteType.vfx_vignette|暗边
+Editor.Select.Filter.NoteType.vfx_nosignal|花屏
+Editor.Select.Filter.NoteType.vfx_flare|闪光
+Editor.Select.Filter.NoteType.vfx_scenemovement|场景可动性
 
 Editor.Select.SelectionFilter.Layer.OnlyEditing|仅当前编辑层级
 Editor.Select.SelectionFilter.Layer.MapLayer|层级 {0}
@@ -220,6 +234,20 @@ Editor.SectionSetting.ShowLine|显示格线
 Editor.SectionSetting.HideLine|隐藏格线
 Editor.SectionSetting.Set|确定
 Editor.SectionSetting.Save|设置完成
+
+Editor.Filter.Title|显示过滤
+Editor.Filter.Toggle.On|显示过滤已开启
+Editor.Filter.Toggle.Off|显示过滤已关闭
+Editor.Filter.NotEditingTransparency|非当前编辑种类透明度：{0}
+Editor.Filter.List.Title|被过滤的音符种类
+Editor.Filter.AddType|添加一种音符
+Editor.Filter.AddGroup|添加一类音符
+Editor.Filter.Close|完成
+Editor.Filter.Helper.Title|这是什么
+Editor.Filter.Helper.Content|显示过滤功能可以关闭一部分类型音符的显示，以便于进行谱面设计[:next]若需要关闭某一类音符的显示，将其添加至列表，并启用显示过滤即可
+Editor.Filter.AddGroup.Title|添加一类音符
+Editor.Filter.AddGroup.Close|取消
+Editor.Filter.AddGroup.Delete|删除
 
 Editor.MapLayerSetting.Title|谱面层级设置
 Editor.MapLayerSetting.NowEditing|当前正在编辑
@@ -303,6 +331,11 @@ Editor.ConfirmExit.Save|保存
 Editor.ConfirmExit.DontSave|不保存
 Editor.ConfirmExit.Cancel|取消
 
+Editor.HorizontalGrid.PrecisionSetFailed.UnexpectedFormat.Title|设置水平格线失败
+Editor.HorizontalGrid.PrecisionSetFailed.UnexpectedFormat.Content|设置水平格线失败：格式错误[:next]已恢复到默认格线设置
+
+Editor.Curve.CreateFailed.UnexpectedTime|请设置正确的时间
+
 Setting.Title|编辑器设置
 Setting.Resolution|分辨率
 Setting.Framerate|帧率
@@ -333,6 +366,7 @@ Setting.Keybind.AttachHeart|附加/移除红心
 Setting.Keybind.UndoOperation|撤销操作
 Setting.Keybind.RedoOperation|重做操作
 Setting.Keybind.SaveFile|保存文件
+Setting.Keybind.ToggleFilter|开关过滤器
 Setting.Keybind.ToggleMagnet|开关磁铁
 Setting.Keybind.ToggleDirectionUp|切换入场：上
 Setting.Keybind.ToggleDirectionNormal|切换入场：平
@@ -347,6 +381,9 @@ Setting.Keybind.ToggleNoteTypeD|切换分类：节拍工具
 Setting.Keybind.ToggleNoteTypeE|切换分类：BMS
 Setting.Keybind.ToggleMode|切换模式
 Setting.Keybind.ToggleSubMode|切换子模式
+Setting.Keybind.SwitchToPrevCurveType|切换至上一曲线型
+Setting.Keybind.SwitchToNextCurveType|切换至下一曲线型
+Setting.Keybind.RelocateViewport|重置垂直显示位置
 
 Setting.KeyListener.Hint|请输入需要更改的键位（Esc 取消）
 

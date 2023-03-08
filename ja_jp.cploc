@@ -101,6 +101,7 @@ Editor.Edit.Type.Normal|普通
 Editor.Edit.Type.Action|アクション
 Editor.Edit.Type.Effect|エフェクト
 Editor.Edit.Type.BeatControl|ツール
+Editor.Edit.Type.MDCPRelated|MDCP
 Editor.Edit.Type.BMSRelated|BMS
 
 Editor.Edit.NoteType.small_1|小敵 I
@@ -136,12 +137,15 @@ Editor.Edit.NoteType.boss_ra_far_atk_2_end|ボスフェーズⅡエンド
 Editor.Edit.NoteType.boss_ra_far_atk_1_to_2|ボスフェーズⅠからⅡへ
 Editor.Edit.NoteType.boss_ra_far_atk_2_to_1|ボスフェーズⅡからⅠへ
 Editor.Edit.NoteType.effect_timing|タイミング
+Editor.Edit.NoteType.effect_scene_timing|Scene Timing
 Editor.Edit.NoteType.preset_beatbpm|BPMツール
 Editor.Edit.NoteType.vfx_changescene|シーンの変更
 Editor.Edit.NoteType.vfx_visibility_show|ノーツを表示
 Editor.Edit.NoteType.vfx_visibility_hide|ノーツを非表示
 Editor.Edit.NoteType.vfx_bossvisibility_show|ボスを表示
 Editor.Edit.NoteType.vfx_bossvisibility_hide|ボスを非表示
+Editor.Edit.NoteType.curvehold_red|カーブホールド·赤い
+Editor.Edit.NoteType.curvehold_blue|カーブホールド·青い
 
 Editor.Edit.NoteType.bms_touhou_ppoint|点P
 
@@ -184,12 +188,22 @@ Editor.Select.Filter.EditableLayer|選択可能なレイヤー
 Editor.Select.Filter.EditableType|選択可能なノーツタイプ
 
 Editor.Select.Filter.NoteType.track|普通
+Editor.Select.Filter.NoteType.curve|Curve Hold
 Editor.Select.Filter.NoteType.boss_action|ボスアクション
 Editor.Select.Filter.NoteType.timing|タイミング
+Editor.Select.Filter.NoteType.scene_timing|Scene Timing
 Editor.Select.Filter.NoteType.vfx|普通のVFX
 Editor.Select.Filter.NoteType.vfx_scene|シーンの変更
 Editor.Select.Filter.NoteType.vfx_visibility|ノーツの可視性
 Editor.Select.Filter.NoteType.vfx_bossvisibility|ボスの可視性
+Editor.Select.Filter.NoteType.vfx_bgvisibility|场景可见性
+Editor.Select.Filter.NoteType.vfx_screenscroll|画面滚动
+Editor.Select.Filter.NoteType.vfx_glitch|画面干扰
+Editor.Select.Filter.NoteType.vfx_chromatic|RGB 分离
+Editor.Select.Filter.NoteType.vfx_vignette|暗边
+Editor.Select.Filter.NoteType.vfx_nosignal|花屏
+Editor.Select.Filter.NoteType.vfx_flare|闪光
+Editor.Select.Filter.NoteType.vfx_scenemovement|场景可动性
 
 Editor.Select.SelectionFilter.Layer.OnlyEditing|現在のマップレイヤー
 Editor.Select.SelectionFilter.Layer.MapLayer|マップレイヤー {0}
@@ -215,6 +229,17 @@ Editor.SectionSetting.ShowLine|グリッドの表示
 Editor.SectionSetting.HideLine|グリッドの非表示
 Editor.SectionSetting.Set|セット
 Editor.SectionSetting.Save|完了
+
+Editor.Filter.Title|Display filter
+Editor.Filter.Toggle.On|Display filter: On
+Editor.Filter.Toggle.Off|Display filter: Off
+Editor.Filter.NotEditingTransparency|Transparency: {0}
+Editor.Filter.List.Title|Filtered note types
+Editor.Filter.AddType|Add a type of note
+Editor.Filter.AddGroup|Add a group of note
+Editor.Filter.Close|Close
+Editor.Filter.Helper.Title|What's this
+Editor.Filter.Helper.Content|Display filter can disable the display of specific types of note[:next]To do this, add a type of note into the filter list
 
 Editor.MapLayerSetting.Title|マップレイヤーの設定
 Editor.MapLayerSetting.NowEditing|編集中
@@ -298,6 +323,11 @@ Editor.ConfirmExit.Save|保存
 Editor.ConfirmExit.DontSave|保存しない
 Editor.ConfirmExit.Cancel|キャンセル
 
+Editor.HorizontalGrid.PrecisionSetFailed.UnexpectedFormat.Title|Horizontal grid set failed
+Editor.HorizontalGrid.PrecisionSetFailed.UnexpectedFormat.Content|Unexpected format[:next]The setting falls back to default
+
+Editor.Curve.CreateFailed.UnexpectedTime|Unexpected timestamp
+
 Setting.Title|編集の設定
 Setting.Resolution|決定
 Setting.Framerate|帧率
@@ -328,6 +358,7 @@ Setting.Keybind.AttachHeart|ハートの取り付け/取り外し
 Setting.Keybind.UndoOperation|元に戻す
 Setting.Keybind.RedoOperation|やり直す
 Setting.Keybind.SaveFile|保存失敗
+Setting.Keybind.ToggleFilter|Toggle filter
 Setting.Keybind.ToggleMagnet|Toggle magnet
 Setting.Keybind.ToggleDirectionUp|Toggle in-type：Up
 Setting.Keybind.ToggleDirectionNormal|Toggle in-type：Normal
@@ -342,6 +373,9 @@ Setting.Keybind.ToggleNoteTypeD|Toggle type: Tools
 Setting.Keybind.ToggleNoteTypeE|Toggle type: BMS
 Setting.Keybind.ToggleMode|Toggle mode
 Setting.Keybind.ToggleSubMode|Toggle sub-mode
+Setting.Keybind.SwitchToPrevCurveType|Previous curve type
+Setting.Keybind.SwitchToNextCurveType|Next curve type
+Setting.Keybind.RelocateViewport|Reset vertical viewport
 
 Setting.KeyListener.Hint|リスニング入力(Escキーでキャンセル)
 

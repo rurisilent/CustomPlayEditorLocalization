@@ -101,6 +101,7 @@ Editor.Edit.Type.Normal|Common
 Editor.Edit.Type.Action|Action
 Editor.Edit.Type.Effect|Effect
 Editor.Edit.Type.BeatControl|Tools
+Editor.Edit.Type.MDCPRelated|MDCP
 Editor.Edit.Type.BMSRelated|BMS
 
 Editor.Edit.NoteType.small_1|Small I
@@ -136,12 +137,15 @@ Editor.Edit.NoteType.boss_ra_far_atk_2_end|Boss Phase II End
 Editor.Edit.NoteType.boss_ra_far_atk_1_to_2|Boss Phase I To II
 Editor.Edit.NoteType.boss_ra_far_atk_2_to_1|Boss Phase II To I
 Editor.Edit.NoteType.effect_timing|Timing
+Editor.Edit.NoteType.effect_scene_timing|Scene Timing
 Editor.Edit.NoteType.preset_beatbpm|BPM Tool
 Editor.Edit.NoteType.vfx_changescene|Change Scene
 Editor.Edit.NoteType.vfx_visibility_show|Show Note
 Editor.Edit.NoteType.vfx_visibility_hide|Hide Note
 Editor.Edit.NoteType.vfx_bossvisibility_show|Show Boss
 Editor.Edit.NoteType.vfx_bossvisibility_hide|Hide Boss
+Editor.Edit.NoteType.curvehold_red|Curve Hold Red
+Editor.Edit.NoteType.curvehold_blue|Curve Hold Blue
 
 Editor.Edit.NoteType.bms_touhou_ppoint|P Point
 
@@ -184,12 +188,22 @@ Editor.Select.Filter.EditableLayer|Selectable Layer
 Editor.Select.Filter.EditableType|Selectable Note Type
 
 Editor.Select.Filter.NoteType.track|Common
+Editor.Select.Filter.NoteType.curve|Curve Hold
 Editor.Select.Filter.NoteType.boss_action|Boss Action
 Editor.Select.Filter.NoteType.timing|Timing
+Editor.Select.Filter.NoteType.scene_timing|Scene Timing
 Editor.Select.Filter.NoteType.vfx|Common VFX
 Editor.Select.Filter.NoteType.vfx_scene|Change Scene
 Editor.Select.Filter.NoteType.vfx_visibility|Note Visibility
 Editor.Select.Filter.NoteType.vfx_bossvisibility|Boss Visibility
+Editor.Select.Filter.NoteType.vfx_bgvisibility|Scene Visibility
+Editor.Select.Filter.NoteType.vfx_screenscroll|Screen Scroll
+Editor.Select.Filter.NoteType.vfx_glitch|Glitch
+Editor.Select.Filter.NoteType.vfx_chromatic|Chromatic
+Editor.Select.Filter.NoteType.vfx_vignette|Vignette
+Editor.Select.Filter.NoteType.vfx_nosignal|No Signal
+Editor.Select.Filter.NoteType.vfx_flare|Flare
+Editor.Select.Filter.NoteType.vfx_scenemovement|Scene Mobility
 
 Editor.Select.SelectionFilter.Layer.OnlyEditing|Only current mapLayer
 Editor.Select.SelectionFilter.Layer.MapLayer|mapLayer {0}
@@ -215,6 +229,17 @@ Editor.SectionSetting.ShowLine|Show Grids
 Editor.SectionSetting.HideLine|Hide Grids
 Editor.SectionSetting.Set|Set
 Editor.SectionSetting.Save|Finish
+
+Editor.Filter.Title|Display filter
+Editor.Filter.Toggle.On|Display filter: On
+Editor.Filter.Toggle.Off|Display filter: Off
+Editor.Filter.NotEditingTransparency|Transparency: {0}
+Editor.Filter.List.Title|Filtered note types
+Editor.Filter.AddType|Add a type of note
+Editor.Filter.AddGroup|Add a group of note
+Editor.Filter.Close|Close
+Editor.Filter.Helper.Title|What's this
+Editor.Filter.Helper.Content|Display filter can disable the display of specific types of note[:next]To do this, add a type of note into the filter list
 
 Editor.MapLayerSetting.Title|MapLayer setting
 Editor.MapLayerSetting.NowEditing|Now editing
@@ -298,6 +323,11 @@ Editor.ConfirmExit.Save|Save
 Editor.ConfirmExit.DontSave|Don’t save
 Editor.ConfirmExit.Cancel|Cancel
 
+Editor.HorizontalGrid.PrecisionSetFailed.UnexpectedFormat.Title|Horizontal grid set failed
+Editor.HorizontalGrid.PrecisionSetFailed.UnexpectedFormat.Content|Unexpected format[:next]The setting falls back to default
+
+Editor.Curve.CreateFailed.UnexpectedTime|Unexpected timestamp
+
 Setting.Title|Editor setting
 Setting.Resolution|Resolution
 Setting.Framerate|Framerate
@@ -328,6 +358,7 @@ Setting.Keybind.AttachHeart|Attach / Remove heart
 Setting.Keybind.UndoOperation|Undo
 Setting.Keybind.RedoOperation|Redo
 Setting.Keybind.SaveFile|Save File
+Setting.Keybind.ToggleFilter|Toggle filter
 Setting.Keybind.ToggleMagnet|Toggle magnet
 Setting.Keybind.ToggleDirectionUp|Toggle in-type：Up
 Setting.Keybind.ToggleDirectionNormal|Toggle in-type：Normal
@@ -342,6 +373,9 @@ Setting.Keybind.ToggleNoteTypeD|Toggle type: Tools
 Setting.Keybind.ToggleNoteTypeE|Toggle type: BMS
 Setting.Keybind.ToggleMode|Toggle mode
 Setting.Keybind.ToggleSubMode|Toggle sub-mode
+Setting.Keybind.SwitchToPrevCurveType|Previous curve type
+Setting.Keybind.SwitchToNextCurveType|Next curve type
+Setting.Keybind.RelocateViewport|Reset vertical viewport
 
 Setting.KeyListener.Hint|Listening Input（Esc to cancel）
 
